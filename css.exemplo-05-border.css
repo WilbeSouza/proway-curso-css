@@ -1,0 +1,105 @@
+/* 
+seletor de TAG
+HTML = <h1>Lista de Pessoas</h1>
+CSS = h1 {estilização}
+-----------------------------------------------
+seletor de ID
+HTML = <h1 id="lista">Lista de Pessoas</h1>
+CSS = #lista {estilização}
+-----------------------------------------------
+seletor de Classe
+HTML = <h1 class="lista">Lista de Pessoas</h1>
+CSS = .lista {estilização}
+
+*/
+
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+padding: 20px;
+color: white;
+background-color: #363636;
+}
+
+.caixa{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.borda-superior{
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+.borda-direita{
+    border-right-color: #a90a0a;
+    border-right-style: solid;
+    border-right-width: 3px;
+}
+.borda-base{
+    border-bottom-color: #2cc28d;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+.borda-esquerda{
+    border-left-color: #c02cc2;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+p{
+    background-color: aqua;
+    /*
+    shorthand para border: escrever varias linhas em uma unica
+        border-left-color: #c02cc2;
+        border-left-style: dashed;
+        border-left-width: 2px;
+    */
+    border-top: #000000 dashed 2px;
+    border-right: #a90a0a dashed 2px;
+    border-bottom: #2cc28d dashed 2px;
+    border-left: #c02cc2 dashed 2px;
+
+    /*Tornar os cantos arredondados*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.caixa-alternativa{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    background-color: #2a2a3b;
+}
+.border-solid{
+
+    /*
+    border-top: 4px solid #4caf50;
+    border-right: 4px solid #4caf50;
+    border-bottom: 4px solid #4caf50;
+    border-left: 4px solid #4caf50;
+    */
+    /* forma de abreviar todos em um so se forem todos iguais*/
+    border:4px solid #4caf50
+}
+.border-dashed{border: 4px dashed #ff9800;}
+.border-dotted{border: 4px dotted #03a9f4;}
+.border-double{border: 6px double #e91e63;}
+.border-groove{border: 6px groove #9c27b0;}
+.border-ridge{border: 6px ridge #673ab7;}
+.border-inset{border: 6px inset #3f51b5;}
+.border-outset{border: 6px outset #009688;}
+.border-none{border: none; background-color: #33333a;}
+.border-hidden{border: hidden; backdrop-filter: #55556a;}
+

@@ -1,0 +1,45 @@
+body{
+    background-color: #323f4f;
+}
+h1{
+    /*margem esquerda*/
+    /*margin-left: 10px;*/
+    margin-top: 40px;
+    /* centralizar o texto horizontalmente*/
+    text-align: center;
+    color: rgb(160, 152, 186);
+}
+
+img{
+    max-height: 300px;
+
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    /*altera a forma que é calculado o width, height para levar em consideração padding, border, margin, ou seja
+    nao ultrapassara o tamanho de 100% do form */
+    box-sizing: border-box;
+    
+}
+
+input{
+    display: block;
+    width: 100%;
+    /*altera a forma que é calculado o width, height para levar em consideração padding, border, margin, ou seja
+    nao ultrapassara o tamanho de 100% do form */
+    box-sizing: border-box;
+    
+}
+
+form{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+
+}

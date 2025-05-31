@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: white;
+    background-color: #363636;
+    }
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.caixa{
+    width: 200px;
+    background-color: #2a2a3b;
+    border: 2px solid #4caf50;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+span{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 4px;
+}
+.pad-left{
+    padding-left: 20px;
+}
+.pad-bottom{
+    padding-bottom: 20px;
+}
+.pad-right{
+    padding-right: 20px;
+}
+.pad-top{
+    padding-top: 20px;
+}
+.pad-lados{
+    /*
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    */
+    padding: 5px 15px 25px 35px;
+}
+.pad-20-40{
+    /*
+    verticais-----------------------
+    padding-top: 20px;
+    padding-bottom:20px
+
+    horizontais---------------------
+    padding-right: 40xp;
+    padding-left: 40xp;
+    */
+    padding: 20px 40px;   /*cima,base,direita, esquerda*/
+}
+.pad-10{
+    /*
+    padding-top: 10px;
+    padding-bottom:10px
+    padding-right: 10xp;
+    padding-left: 10xp;
+    */
+
+    padding: 10px 10px 10px 10px;
+    padding: 10px 10px;
+    padding: 10px;
+}
+
+.pad-no-10{
+    padding: none;
+}
